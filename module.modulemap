@@ -1,0 +1,17 @@
+module CSQLite [system] {
+    header "/usr/local/include/SDL2/SDL.h"
+    header "/usr/local/include/SDL2/SDL_image.h"
+    header "/usr/local/include/SDL2/SDL_mixer.h"
+    header "/usr/local/include/SDL2/SDL_net.h"
+    header "/usr/local/include/SDL2/SDL_syswm.h"
+    header "/usr/local/include/SDL2/SDL_ttf.h"
+    header "/usr/local/include/SDL2/SDL2_gfxPrimitives.h"
+    header "/usr/local/include/SDL2/SDL2_rotozoom.h"
+    link "SDL2"
+    link "SDL2_gfx"
+    link "SDL2_image"
+    link "SDL2_mixer"
+    link "SDL2_net"
+    link "SDL2_ttf"
+    export *
+}
